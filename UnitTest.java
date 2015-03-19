@@ -17,10 +17,18 @@ public class UnitTest {
 		for(int i=0;i<numofLines;i++) {
 			for(int j=0;j<n;j++) {
 				a[i][j] = rand.nextInt((max - min) + 1) + 1;
+				if(j==0)
+					t[i][j] = 0;
+				else {
+				
 				t[i][j] = rand.nextInt((max - min) + 1) + 1;
+				}
+				
 			}
 			
+			System.out.println();
 		} 
+		
 		
 		
 		
